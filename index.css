@@ -1,0 +1,297 @@
+/* START OF NAVBAR SECTION */
+/* ==============================================================START BODY======================================================================== */
+body {}
+
+/* ==============================================================END BODY======================================================================== */
+.navbar {
+  padding: 20px;
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+/* <!--=======================================================&lt;!&ndash;END OF NAVIGATION SECTION================================================================&ndash;&gt;--> */
+/* <!--===========================================&lt;!&ndash;START OF THE FIRST SECTION&ndash;&gt;===========================================--> */
+#first-section h1 {
+  width: auto;
+  font-weight: 800;
+  font-family: Open Sans;
+  font-size: 3rem;
+  color: #143F6B;
+}
+
+
+
+.first-section {
+  height: 660px;
+  width: auto;
+  background-image: url("img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2rem;
+  background-color: white;
+  line-height: 1;
+}
+.intro {
+  position: relative;
+  margin-top: 165px;
+  margin-left: 150px;
+  padding-top: 170px;
+  width: 800px;
+  height: 300px;
+  line-height: 1.5;
+  background-color: rgba(255, 255, 255, .45);
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 8px;
+  padding: 35px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, .5);
+  backdrop-filter: blur(15px);
+
+
+}
+
+.get-started-button {
+  width: 150px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  backdrop-filter: blur(15px);
+}
+
+/* <!--===================================================&lt;!&ndash;END OF THE FIRST SECTION=================================================================&ndash;&gt;--> */
+
+
+
+/* <!--===================================================&lt;!&ndash;START OF THE DEPARTMENTS TSECTION=================================================================&ndash;&gt;--> */
+#departments {
+  padding-top: 50px;
+  height: 950px;
+  background-color: #EFFFFD;
+}
+
+.departments-p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  height: 450px;
+  width: 370px;
+  margin: 60px 30px;
+  box-shadow: 5px 5px 15px;
+  padding: 15px;
+}
+
+.card-image-top {
+  height: 300px;
+  width: 338px;
+}
+
+.center-card .card-image-center {
+  height: 180px;
+  width: 338px;
+}
+.card-text .card-title {
+  width: 300px;
+  text-align: center;
+}
+
+.card-title {
+  width: auto;
+  padding: 5px;
+  text-align: center;
+  background-color: #EFFFFD;
+}
+
+/* <!--===================================================<!--END OF THE DEPARTMENTS SECTION=================================================================--> */
+/* <!-- =========================================================START OF THE  FACILITIES SECTION=============================================================== --> */
+.facilities {
+  padding-top: 50px;
+  height: 1150px;
+  width: auto;
+  background-color: #DFF3E3;
+}
+
+.facilities h1{
+  text-align: center;
+  margin: 50px 0 100px 0;
+
+}
+
+
+.description-table p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.facility-image {
+  height: 250px;
+  width: 300px;
+  border-radius: 3%;
+  box-shadow: 5px 5px 20px;
+}
+
+.facility-1-container {
+  height: 250px;
+  width: 1000px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.facility-container-center {
+  height: 250px;
+  width: 1000px;
+  position: relative;
+  margin: 10px 200px;
+}
+
+.facility-image-center {
+  height: 250px;
+  width: 500px;
+  border-radius: 3%;
+  box-shadow: 5px 5px 20px;
+}
+
+.facility-1-container :hover {}
+
+#facilities i {
+  font-size: 40px;
+  margin: 0 10px 0 20px;
+  color: #B20600;
+  padding: 5px;
+}
+
+/* <!-- =========================================================end OF THE  FACILITIES SECTION=============================================================== --> */
+/* <!--===================================================&lt;!&ndash;START OF THE CLIENTS SECTION=================================================================&ndash;&gt;--> */
+#clients {
+  padding: 50px;
+  height: 700px;
+  width: auto;
+  background-color: #EFFFFD;
+}
+
+.clients p {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 400;
+  width: 800px;
+  margin-bottom: 70px;
+}
+
+.clients-title {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: blue;
+  margin: 5px 0 20px;
+}
+
+.clients-container {
+  width: auto;
+}
+
+.client-logo {
+  height: 65px;
+  width: 170px;
+  margin: 50px 60px;
+}
+
+/* <!--===================================================&lt;!&ndash;END OF THE CLIENTS SECTION=================================================================&ndash;&gt;--> */
+/* ==========================================================START OF THE ABOUT SECTION============================================================== */
+#about {
+  height: 600px;
+  width: auto;
+  background-color: #DFF3E3;
+}
+
+
+.about .front-description {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 800px;
+}
+
+.about-icons {
+  padding-top: 80px;
+}
+
+.about h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.about p {
+  text-align: center;
+}
+
+#about .bi {
+  font-size: 100px;
+  color: blue;
+}
+
+#about div {
+  margin: 0 40px;
+}
+
+/* ==========================================================START OF THE ABOUT SECTION============================================================== */
+/* ======================================================START DOWNLOAD SECTION==================================================== */
+#download {
+  height: 620px;
+  width: auto;
+  padding: 50px;
+  background-color: #EFFFFD;
+}
+
+.download h2 {
+  color: #143F6B;
+  font-size: 3rem;
+  margin: 40px 0 20px;
+}
+
+.download div {
+  margin-top: 60px;
+  width: 500px;
+  height: 100px;
+}
+
+.download p {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.download-button {
+  margin: 30px 30px;
+}
+
+.bi {
+  margin-right: 5px;
+}
+
+/* ======================================================END DOWNLOAD SECTION==================================================== */
+/* ==========================================================START OF THE FOOTER SECTION============================================================== */
+.footer {
+  height: 160px;
+  width: auto;
+  background-color: #06113C;
+  text-align: center;
+}
+
+.footer .bi {
+  color: white;
+  font-size: 2rem;
+  margin: 0 20px;
+}
+
+.footer div {
+  margin: 10px;
+}
+
+.footer p {
+  color: white;
+}
+
+/* ==========================================================END OF THE FOOTER SECTION============================================================== */
